@@ -1,0 +1,374 @@
+@font-face {
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  src: url(../lib/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 980px;
+  height: 85px;
+  margin: 0 auto;
+  border-bottom: 2px solid #fff;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px;
+  border-color: #fff;
+  border-style: solid;
+}
+nav .logo .text {
+  color: #fff;
+  text-align: center;
+}
+nav .links a {
+  color: #fff;
+  text-decoration: none;
+}
+nav .links span {
+  color: #79ADDC;
+  margin: 0px 20px;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -85px auto 0 auto;
+  position: relative;
+}
+.banner .title {
+  width: 226px;
+  height: 60px;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 181px;
+  font-size: 60px;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+}
+.banner .site-description {
+  margin: 0 auto;
+  width: 416px;
+  height: 46px;
+  color: #fff;
+  text-align: center;
+  padding-top: 90px;
+}
+.banner button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 96px;
+  background-color: #79ADDC;
+  width: 121px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  color: #fff;
+}
+.banner button:hover {
+  cursor: pointer;
+}
+
+.form-content {
+  max-width: 818px;
+  min-height: 70px;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  margin: 0 auto;
+}
+.form-content h1 {
+  width: 400px;
+  height: 60px;
+  font-size: 60px;
+}
+.form-content .top-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+}
+.form-content .top-boxes .long-email-box {
+  width: 453px;
+}
+.form-content .top-boxes .long-check-box {
+  width: 698px;
+}
+.form-content .top-boxes .icon {
+  position: absolute;
+  top: 20px;
+  margin-left: -40px;
+}
+.form-content .top-boxes .icon:hover {
+  cursor: pointer;
+}
+.form-content .top-boxes input {
+  width: 344px;
+  height: 58px;
+  padding-left: 10px;
+  border-color: #79ADDC;
+  border-style: solid;
+}
+.form-content .selectors {
+  display: flex;
+  align-items: center;
+  justify-content: space-betweem;
+  margin: 20px;
+}
+.form-content .selectors .number {
+  width: 103px;
+  height: 58px;
+  margin: 0 auto;
+  border-color: #79ADDC;
+  border-style: solid;
+}
+.form-content .selectors .number:hover {
+  cursor: pointer;
+}
+.form-content .selectors .identifier {
+  width: 39px;
+  height: 20px;
+  text-align: center;
+}
+.form-content .message input {
+  margin: 20px 0 20px 0;
+  width: 818px;
+  height: 192px;
+  border-color: #79ADDC;
+  border-style: solid;
+}
+.form-content .submit-form button {
+  width: 818px;
+  margin-bottom: 104px;
+  background-color: #79ADDC;
+  height: 60px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+}
+.form-content .submit-form button:hover {
+  cursor: pointer;
+}
+
+.ad-travel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+}
+.ad-travel .destination1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 55px;
+  height: 304px;
+  width: 236px;
+  background-color: darkgrey;
+  z-index: 99;
+  position: relative;
+}
+.ad-travel .destination1 .name {
+  color: #fff;
+  text-align: center;
+  height: 60px;
+  width: 236px;
+  position: absolute;
+  top: 56px;
+  font-size: 60px;
+}
+.ad-travel .destination1 .price {
+  color: #fff;
+  height: 60px;
+  width: 236px;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 120px;
+}
+.ad-travel .destination1 button {
+  background-color: #79ADDC;
+  position: absolute;
+  top: 208px;
+  left: 52px;
+  width: 133px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+}
+.ad-travel .destination1 button:hover {
+  cursor: pointer;
+}
+.ad-travel .destination2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 55px;
+  height: 304px;
+  width: 236px;
+  background-color: darkgrey;
+  z-index: 99;
+  position: relative;
+}
+.ad-travel .destination2 .name {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  height: 60px;
+  width: 236px;
+  position: absolute;
+  top: 56px;
+}
+.ad-travel .destination2 .price {
+  color: #fff;
+  height: 60px;
+  width: 236px;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 120px;
+}
+.ad-travel .destination2 button {
+  background-color: #79ADDC;
+  position: absolute;
+  top: 208px;
+  left: 52px;
+  width: 133px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+}
+.ad-travel .destination2 button:hover {
+  cursor: pointer;
+}
+.ad-travel .destination3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 55px;
+  height: 304px;
+  width: 236px;
+  background-color: darkgrey;
+  z-index: 99;
+  position: relative;
+}
+.ad-travel .destination3 .name {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  height: 60px;
+  width: 236px;
+  position: absolute;
+  top: 56px;
+}
+.ad-travel .destination3 .price {
+  color: #fff;
+  height: 60px;
+  width: 236px;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 120px;
+}
+.ad-travel .destination3 button {
+  background-color: #79ADDC;
+  position: absolute;
+  top: 208px;
+  left: 52px;
+  width: 133px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+}
+.ad-travel .destination3 button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  max-width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  font-family: "ProximaNovaScOsfExtraCondensed";
+  position: relative;
+}
+.footer .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px;
+  border-color: #fff;
+  border-style: solid;
+  position: absolute;
+  top: 29px;
+  left: 150px;
+}
+.footer .logo .text {
+  color: #fff;
+  text-align: center;
+}
+.footer .copyright {
+  width: 220px;
+  height: 14px;
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: 43px;
+  left: 532px;
+}
+.footer .instagram {
+  position: absolute;
+  top: 39px;
+  left: 1061.4px;
+}
+.footer .instagram .g i {
+  font-size: 22px;
+  color: #fff;
+}
+.footer .twitter {
+  position: absolute;
+  top: 39px;
+  left: 1106.3px;
+}
+.footer .twitter .g i {
+  font-size: 22px;
+  color: #fff;
+}
+.footer .facebook {
+  position: absolute;
+  top: 39px;
+  left: 1017px;
+}
+.footer .facebook .g i {
+  font-size: 22px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */

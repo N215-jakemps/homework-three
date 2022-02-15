@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: $content-width;
+    height: $nav-height;
+    margin: 0 auto;
+    border-bottom: 2px solid $site-white;
+
+    font-family: $main-font;
+
+    position: relative;
+    z-index: 99;
+
+    .logo {
+        width: 92px;
+        height: 42px;
+        
+        border: 2px;
+        border-color: $site-white;
+        border-style: solid;
+
+        .text {
+            color: $site-white;
+            text-align: center;
+        }
+    }
+
+    .links {
+
+        a {
+            color: $site-white;
+            text-decoration: none;
+            
+        }
+
+        span {
+            color: $site-blue;
+            margin: 0px 20px;
+        }
+    }
+}

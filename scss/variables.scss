@@ -1,0 +1,31 @@
+
+$center: 0 auto;
+
+//this defines width and heights
+$content-width: 980px;
+$nav-height: 85px;
+$banner-footer-width: 1280px;
+$footer-height: 100px;
+$banner-height: 500px;
+
+$home-form-width: 818px;
+
+//this defeines site colors
+$site-blue: #79ADDC;
+$site-white: #fff;
+$site-black: #000;
+
+//this defines buttons 
+$button-radius: 50px;
+
+//define the fonts
+
+
+@font-face {
+    font-family: "ProximaNovaScOsfExtraCondensed";
+    src: url(../lib/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+$main-font: "ProximaNovaScOsfExtraCondensed";
+$large-font-size: 60px;
+$small-font-size: 30px;

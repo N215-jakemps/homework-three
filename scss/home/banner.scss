@@ -1,0 +1,70 @@
+.banner {
+    max-width: $banner-footer-width;
+    height: $banner-height;
+    background-image: linear-gradient(rgba($site-black, .4),rgba($site-black, .4)),url(../images/hero.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: -85px auto 0 auto;
+
+    position: relative;
+
+    .title {
+        width: 226px;
+        height: 60px;
+
+        color: $site-white;
+        margin: $center;
+
+        padding-top: 181px;
+        font-size: 60px;
+
+        font-family: $main-font;
+    }
+
+    .site-description {
+
+        // position: absolute;
+        // top: 271px;
+        // left: 30%;
+
+        margin: $center;
+
+        
+        width: 416px;
+        height: 46px;
+        color: $site-white;
+        text-align: center;
+    
+
+        padding-top: 90px;
+    }
+
+    button {
+        //position: absolute;
+        display: block;
+        margin: $center;
+
+        margin-top: 96px;
+
+        background-color: $site-blue;
+
+        // top: 367px;
+        // left: 574.7px;
+
+        width: 121px;
+        height: 40px;
+
+        text-align: center;
+        border: none;
+        color: $site-white;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+        
+    }
+}

@@ -1,0 +1,227 @@
+.ad-travel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+
+    font-family: $main-font;
+    
+
+    .destination1{
+
+        background-image:linear-gradient(rgba($site-black, .4),rgba($site-black, .4)), url(../images/tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        margin: 55px;
+
+        height: 304px;
+        width: 236px;
+        background-color: darkgrey;
+
+        z-index: 99;
+
+        position: relative;
+       
+        .name {
+
+            
+            color: $site-white;
+            text-align: center;
+
+            height: 60px;
+            width: 236px;
+
+            position: absolute;
+
+            top: 56px;
+
+            font-size: $large-font-size;
+
+
+        }
+
+        .price {
+            color: $site-white;
+
+            height: 60px;
+            width: 236px;
+            text-align: center;
+            font-size: $small-font-size;
+
+            position: absolute;
+
+            top: 120px;
+        }
+
+        button {
+            
+
+            //margin-top: 96px;
+    
+            background-color: $site-blue;
+    
+            position: absolute;
+
+            top: 208px;
+            left: 52px;
+    
+            width: 133px;
+            height: 40px;
+    
+            border: none;
+            color: $site-white;
+            border-radius: $button-radius;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        
+    }
+    .destination2{
+
+        background-image:linear-gradient(rgba($site-black, .4),rgba($site-black, .4)), url(../images/tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        margin: 55px;
+
+        height: 304px;
+        width: 236px;
+        background-color: darkgrey;
+
+        z-index: 99;
+
+        position: relative;
+       
+        .name {
+
+            
+            color: $site-white;
+            text-align: center;
+            font-size: $large-font-size;
+
+            height: 60px;
+            width: 236px;
+
+            position: absolute;
+
+            top: 56px;
+
+
+        }
+
+        .price {
+            color: $site-white;
+
+            height: 60px;
+            width: 236px;
+            text-align: center;
+            font-size: $small-font-size;
+
+            position: absolute;
+
+            top: 120px;
+        }
+
+        button {
+            
+
+            //margin-top: 96px;
+    
+            background-color: $site-blue;
+    
+            position: absolute;
+
+            top: 208px;
+            left: 52px;
+    
+            width: 133px;
+            height: 40px;
+    
+            border: none;
+            color: $site-white;
+            border-radius: $button-radius;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        
+    }
+    .destination3{
+
+        background-image:linear-gradient(rgba($site-black, .4),rgba($site-black, .4)), url(../images/tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        margin: 55px;
+
+        height: 304px;
+        width: 236px;
+        background-color: darkgrey;
+
+        z-index: 99;
+
+        position: relative;
+       
+        .name {
+
+            
+            color: $site-white;
+            text-align: center;
+            font-size: $large-font-size;
+
+            height: 60px;
+            width: 236px;
+
+            position: absolute;
+
+            top: 56px;
+
+
+        }
+
+        .price {
+            color: $site-white;
+
+            height: 60px;
+            width: 236px;
+            text-align: center;
+            font-size: $small-font-size;
+
+            position: absolute;
+
+            top: 120px;
+        }
+
+        button {
+            
+
+            //margin-top: 96px;
+    
+            background-color: $site-blue;
+    
+            position: absolute;
+
+            top: 208px;
+            left: 52px;
+    
+            width: 133px;
+            height: 40px;
+    
+            border: none;
+            color: $site-white;
+            border-radius: $button-radius;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,94 @@
+.footer {
+    max-width: $banner-footer-width;
+    height: $footer-height;
+
+    background-color: $site-blue;
+
+    margin: $center;
+
+    font-family: $main-font;
+
+    position: relative;
+
+    .logo{
+        width: 92px;
+        height: 42px;
+        
+
+        border: 2px;
+        border-color: $site-white;
+        border-style: solid;
+
+        position: absolute;
+
+        top: 29px;
+        left: 150px;
+
+        .text {
+            color: $site-white;
+            text-align: center;
+        }
+    }
+
+    .copyright {
+        width: 220px;
+        height: 14px;
+
+        color: $site-white;
+        font-size: 12px;
+
+        position: absolute;
+
+        top: 43px;
+        left: 532px;
+
+    }
+
+    .instagram {
+        position: absolute;
+
+       .g {
+
+        i {
+            font-size: 22px;
+            color: $site-white;
+        }
+       }
+
+       top: 39px;
+       left: 1061.4px;
+
+
+    }
+
+    .twitter {
+        position: absolute;
+
+       .g {
+
+        i {
+            font-size: 22px;
+            color: $site-white;
+        }
+       }
+
+
+       top: 39px;
+       left: 1106.3px;
+       
+    }
+
+    .facebook {
+        position: absolute;
+
+       .g {
+
+        i {
+            font-size: 22px;
+            color: $site-white;
+        }
+       }
+       top: 39px;
+       left: 1017px;
+    }
+}

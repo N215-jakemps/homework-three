@@ -1,0 +1,126 @@
+.form-content {
+    max-width: $home-form-width;
+    min-height: 70px;
+
+    font-family: $main-font;
+    
+
+    margin: $center;
+
+    h1 {
+        width: 400px;
+        height: 60px;
+
+        font-size: 60px;
+    }
+    .top-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-top: 20px;
+
+        position: relative;
+
+        .long-email-box {
+           width: 453px;
+        }
+
+        .long-check-box {
+            width: 698px;
+        }
+
+        .icon {
+            position: absolute;
+            top: 20px;
+            margin-left: -40px;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+        input {
+
+            width: 344px;
+            height: 58px;
+
+            padding-left: 10px;
+
+            border-color: $site-blue;
+            border-style: solid;
+
+           
+        }
+    }
+
+    .selectors {
+        display: flex;
+        align-items: center;
+        justify-content: space-betweem;
+
+        margin: 20px;
+
+        .number {
+            width: 103px;
+            height: 58px;
+            
+            margin: $center;
+            border-color: $site-blue;
+            border-style: solid;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+        .identifier {
+            width: 39px;
+            height: 20px; 
+
+            text-align: center;
+        }
+
+    }
+
+    .message {
+        
+
+        input {
+
+            margin: 20px 0 20px 0;
+            width: $home-form-width;
+            height: 192px;
+            border-color: $site-blue;
+            border-style: solid;
+        }
+    }
+
+    .submit-form{
+        button {
+
+        width: $home-form-width;
+        margin-bottom: 104px;
+
+        //margin-top: 96px;
+
+        background-color: $site-blue;
+
+        // top: 367px;
+        // left: 574.7px;
+
+        // width: 121px;
+        height: 60px;
+
+        text-align: center;
+        border: none;
+        color: $site-white;
+
+        border-radius: $button-radius;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
